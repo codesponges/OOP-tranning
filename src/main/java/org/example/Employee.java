@@ -13,7 +13,7 @@ public class Employee {
 
     public void setSalary(int salary) {
         if(salary <= this.salary) { // 매개변수 salary가 기존 salary 보다 적다면
-            System.out.println("연봉을 깎고 입사할 수는 없어요. 올려주세요");
+            System.out.println("기존 연봉보다는 올랐으면 좋겠습니다");
             return; // 해당 위치에서 메서드를 종료하고 하단의 코드를 실행하지 않는다
         }
 
